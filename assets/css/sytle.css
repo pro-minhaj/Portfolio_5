@@ -541,7 +541,7 @@ header{
 }
 .section-9{
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 .section-9-hading h2{
     text-align: center;
@@ -604,4 +604,73 @@ header{
 .sct-9-footer p{
     margin-top: 10px;
     color: rgba(0, 0, 0, .5);
+}
+.section-10{
+    background-color: #F7F7F7;
+    background-image: url(../img/bg-shapes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.section-10::before{
+    background-image: url(../../assets/img/bg-shape-mask-up.png);
+    background-size: cover;
+    content: "";
+    left: 0;
+    height: 3.75rem;
+    position: absolute;
+    top: -0.0625rem;
+    width: 100%;
+    
+}
+.sct-10-hading{
+    padding-top: 80px;
+}
+.sct-10-hading h2{
+    text-align: center;
+}
+.sct-10-img-area{
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sct-10-imgs{
+    width:31% ;
+}
+.sct-10-imgs img{
+    max-width: 100%;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
+}
+.sct-opacity{
+    opacity: 0.5;
+}
+.sct-10-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sct-10-icons span{
+    font-size:40px ;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    top:-200px ;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 50%;
+}
+.sct-10-icons-1 span{
+    position: relative;
+    left:50px ;
+}
+.sct-10-icons-2 span{
+    position: relative;
+    right:50px ;
+}
+.sct-10-icons span:hover{
+    background-color: #191919;
 }
