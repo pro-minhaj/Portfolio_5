@@ -60,15 +60,6 @@ header{
 .navber ul li a:hover{
     color:#BBC1D7 ;
 }
-.navber-area button{
-    color: #fff;
-    padding:8px 20px ;
-    background-color: #F26D7D;
-    border:none;
-    border-radius: 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
 .section-1{
     padding-top: 90px;
 }
@@ -108,18 +99,12 @@ header{
     color: #fff;
     margin-top: 10px;
 }
-.hero-text-area button{
-    padding:15px 28px ;
-    font-weight: 600;
-    color: rgba(15, 15, 15, 0.8);
-    font-size: 20px;
-    border: none;
-    border-radius:30px ;
-    transition: 0.3s;
-    cursor: pointer;
+.header-area a button{
+    font-size: 15px;
+    padding: 8px 15px;
 }
-.hero-text-area button:hover{
-    background-color: #E2E6EA;
+.button button:hover{
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
 }
 .hero-mobail-img-area{
     width:40% ;
@@ -286,7 +271,7 @@ header{
     font-weight: 500;
     line-height: 25px;
 }
-.section-5-text-area button{
+.button button{
     color: #fff;
     padding:10px 25px ;
     background-color: #F26D7D;
@@ -308,7 +293,7 @@ header{
     background-image: url("../img/bg-shapes-image-02 (1).png");
     background-repeat: no-repeat;
     padding-top: 70px;
-    padding-bottom: 50px;
+    
 }
 .section-6-main{
     display: flex;
@@ -394,4 +379,163 @@ header{
 }
 .section-6-text-area h6:hover{
     color:#dd1a2e ;
+}
+.section-7{
+    position: relative;
+    z-index:1 ;
+}
+.section-7::before{
+    content:"";
+    position: absolute;
+    width:100% ;
+    background-image: url(../img/bg-pattern-dot.png);
+    background-repeat: repeat;
+    background-position: center center;
+    opacity: 0.1;
+    height: 40vh;
+    z-index:-1 ;
+}
+.section-7-heading h3{
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.sct-7-main{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+}
+.sct-7-submit-area input{
+    padding:12px 64% ;
+    padding-left: 15px;
+    cursor: pointer;
+    outline:none ;
+    border: 2px solid rgba(0, 0, 0, .3);
+}
+.sct-7-submit-area input::placeholder{
+    font-size: 15px;
+    color: rgba(0, 0, 0, .3);
+}
+.sct-7-submit-area button{
+    margin-left: 20px;
+    padding:10px 40px ;
+}
+.sct-7-main p{
+    color: rgba(0, 0, 0, .4);
+    font-size: 13px;
+}
+.hading-h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.section-8{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.section-8-heading h2{
+    text-align: center;
+}
+.cards{
+    width:100%;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card{
+    width:33.33%;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
+    border-radius: 10px;
+    z-index: -1;
+    background-color: #FFFFFF;
+}
+.card-hading{
+    width:100% ;
+    background-color: #1B1464;
+    
+}
+.card-hading h4{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    font-weight:500 ;
+    padding:14px 0 ;
+    margin: 0;
+}
+.card-price{
+    width:100% ;
+    text-align: center;
+    background-color:#F7F7F7 ;
+    padding-top:50px ;
+    padding-bottom: 30px;
+}
+.card-price h6{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+.card-price p{
+    margin-top: 5px;
+    color: rgba(0, 0, 0, .5);
+    font-size: 15px;
+}
+.boderbutton{
+    border-bottom:1px solid rgba(0, 0, 0, .2) ;
+}
+.card-fichers ul{
+    padding-left: 0;
+}
+.card-fichers ul li{
+    list-style: none;
+    text-align: center;
+    padding:12px 0 ;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.card-fichers ul li s{
+    color: rgba(0, 0, 0, .5);
+}
+.card-button{
+    width:100% ;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.card-button button{
+    padding: 10px 20px;
+    border: 2px solid #F26D7D;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #f26d7d;
+    background: transparent;
+}
+.card-button button:hover {
+    background-color: #f26d7d;
+    color: #fff;
+}
+.card-scale{
+    transform: scale(1.1);
+    z-index:5 !important;
+   box-shadow:0.375rem 0.3125rem 1.5625rem rgba(0, 0, 0, .2) !important;
+}
+.button-sclae button{
+    background-color:#F26D7D !important ;
+    color: #fff;
+}
+.button-sclae button:hover{
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
+}
+.card-hading-scale{
+    background-color: #F26D7D;
+}
+.card-price-scale{
+    background-color:#D96270 ;
+    color: #fff;
+}
+.card-price-scale p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.card-price-scale span{
+    margin-left: 2px;
+    letter-spacing: 1px;
+    font-size: 30px;
 }
