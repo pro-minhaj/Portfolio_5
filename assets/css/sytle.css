@@ -612,7 +612,7 @@ header{
     background-size: contain;
     position: relative;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .section-10::before{
     background-image: url(../../assets/img/bg-shape-mask-up.png);
@@ -673,4 +673,48 @@ header{
 }
 .sct-10-icons span:hover{
     background-color: #191919;
+}
+.section-11{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sct-10-heading h2{
+    text-align: center;
+}
+.sct-10-main{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+.sct-10-pr-1{
+    width:100% ;
+    text-align: right;
+}
+.sct-10-pr-1 h4{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.sct-10-pr-1 p{
+    font-size: 17px;
+    color: rgba(0, 0, 0, .5);
+    line-height: 25px;
+}
+.sct-10-mobail-img{
+    background-image: url(../svg/organic-shape-01.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width:55% ;
+    
+}
+.sct-10-mobail-img img{
+    max-width:100% ;
+}
+.sct-10-pr-2{
+    width:100% ;
+    text-align: left;
 }
