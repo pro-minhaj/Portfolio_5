@@ -833,3 +833,97 @@ header{
     width: 100%;
     height:50vh ;
 }
+footer{
+    background-image: url(../img/bg-desk.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+footer::before{
+    position: absolute;
+    width:100% ;
+    height:100% ;
+    background-color: #2E266C;
+    content: "";
+    opacity: 0.9;
+    z-index:-1 ;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    padding:50px 40px ;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
+    border-radius: 8px;
+    position: relative;
+    top: -50px;
+}
+.contactus{
+    width:35% ;
+}
+.contact h3{
+    margin-top: 0;
+    font-size: 25px;
+}
+.contact p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.contact h4{
+    margin-bottom: 10px;
+}
+.footer-email a{
+    text-decoration: none;
+    color: #dd1a2e;
+}
+.contact-form{
+    width: 60%;
+}
+.footer-name{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.footer-name2{
+    width: 48%;
+}
+.footer-name1{
+    width: 48%;
+}    
+.footer-input-area label{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.footer-name input{
+    padding: 10px 105px;
+    padding-left: 10px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, .2);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-message textarea{
+    padding:50px 430px ;
+    padding-top: 10px;
+    padding-bottom:70px ;
+    padding-left: 10px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, .2);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.footer-button{
+   width: 97%;
+   text-align: right;
+   padding-bottom: 30px;
+   padding-top: 20px;
+}
+.footer-copyright p{
+    color:rgba(255, 254, 254, 0.8) ;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
