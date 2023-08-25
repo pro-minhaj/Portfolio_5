@@ -784,3 +784,48 @@ header{
     color: rgba(0, 0, 0, .5);
     font-size: 20px;
 }
+.section-14{
+    position: relative;
+    padding-top: 50px;
+    
+}
+.section-14::before{
+    position: absolute;
+    background-image: url(../img/pattern-topo.png);
+    content: "";
+    width: 100%;
+    height:30vh;
+    opacity:0.1;
+}
+.sct-14-main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.sct-14-border{
+    position: relative;
+}
+.sct-14-border::before{
+    content: "";
+    bottom: 0;
+    border: 0.125rem solid #f26d7d;
+    border-radius: 50%;
+    height: 0.625rem;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 0.625rem;
+    left:250px ;
+}
+.sct-14-clients h2{
+    font-size:50px ;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.sct-14-clients p{
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    color: rgba(0, 0, 0, .6);
+}
