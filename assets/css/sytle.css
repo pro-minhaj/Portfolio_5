@@ -62,7 +62,7 @@ header{
     color:#BBC1D7 ;
 }
 .section-1{
-    padding-top: 90px;
+    padding-top: 78px;
 }
 .bg-img-sections::before{
     position: absolute;
@@ -885,6 +885,7 @@ footer::before{
     display: flex;
     width: 100%;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .footer-name2{
     width: 48%;
@@ -897,15 +898,20 @@ footer::before{
     margin-bottom: 15px;
 }
 .footer-name input{
-    padding: 10px 105px;
+    padding: 8px 0px;
+    width: 100%;
     padding-left: 10px;
     outline: none;
     border: 2px solid rgba(0, 0, 0, .2);
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.footer-message{
+    width: 100%;
+}
 .footer-message textarea{
-    padding:50px 430px ;
+    padding:50px 0px ;
+    width: 100%;
     padding-top: 10px;
     padding-bottom:70px ;
     padding-left: 10px;
@@ -916,7 +922,7 @@ footer::before{
     
 }
 .footer-button{
-   width: 97%;
+   width: 100%;
    text-align: right;
    padding-bottom: 30px;
    padding-top: 20px;
@@ -961,18 +967,20 @@ footer::before{
     .checkbtn{
         display: block;
         cursor: pointer;
+        
     }
+    
     .navber {
         position: fixed;
         width:50vw ;
-        height:50vh ;
+        height:60vh ;
         top: 78px;
         left: -200%;
         transition: all .5s;
         flex-direction: column;
         box-shadow: 10px 10px 191px 6px rgba(0,0,0,0.56);
--webkit-box-shadow: 10px 10px 191px 6px rgba(0,0,0,0.56);
--moz-box-shadow: 10px 10px 191px 6px rgba(0,0,0,0.56);
+        -webkit-box-shadow: 10px 10px 191px 6px rgba(0,0,0,0.56);
+        -moz-box-shadow: 10px 10px 191px 6px rgba(0,0,0,0.56);
     }
     .navber::before{
         width: 100%;
@@ -990,10 +998,32 @@ footer::before{
     .navber ul li a {
         color: #222;
     }
+    .active{
+        color: #222 !important;
+    }
     .navber-area .button {
         margin-top: 30px;
     }
     #check:checked ~ .navber{
         left: 0;
+    }
+    .hero-mobail-img-area{
+        display: none !important;
+    }
+    .section-4-imgs{
+        margin: 0;
+    }
+    .footer-name2{
+        width: 100%;
+    }
+    .footer-name1{
+        width: 100%;
+    }
+    .contactus{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+        padding-top: 30px;
     }
 }
