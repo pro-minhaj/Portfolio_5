@@ -83,7 +83,7 @@ header{
 .hero-area{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap:30px ;
     
 }
 .hero-text-area{
@@ -145,6 +145,7 @@ header{
     padding-top: 50px;
     gap:20px ;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .sct-2-work{
     width:32% ;
@@ -180,9 +181,11 @@ header{
  }
  .section-3-logos{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap:100px ;
     padding:50px 10px ;
+    flex-wrap: wrap;
  }
  .section-4{
     background-image: url(../img/bg-shapes-image.png);
@@ -244,23 +247,25 @@ header{
 .section-4-imgs{
     margin:0px 208px;
 }
+.section-4-imgs img{
+    max-width: 100%;
+}
 .section-5{
     padding-top: 100px;
     padding-bottom: 150px;
 }
-.section-5-heading{
-    margin-bottom: 80px;
-}
-.section-5-heading h2{
+.sct-5-heading h2{
     font-size:40px ;
     font-weight: 500;
     font-family: inherit;
+   
 }
 .section-5-main{
     display: flex;
-    justify-content: space-between;
     align-items:start;
     padding-top: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .section-5-text-area{
     width:47% ;
@@ -300,7 +305,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items:start;
-    
+    flex-wrap: wrap;
 }
 .section-6-imgs{
     width:48% ;
@@ -405,12 +410,24 @@ header{
     padding-bottom: 50px;
     
 }
+.sct-7-submit-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .sct-7-submit-area input{
-    padding:12px 64% ;
+    width: 100%;
+    padding:10px 0 ;
     padding-left: 15px;
     cursor: pointer;
     outline:none ;
     border: 2px solid rgba(0, 0, 0, .3);
+}
+.sct-7-button{
+    width:20% ;
+}
+.sct-7-input{
+    width:80% ;
 }
 .sct-7-submit-area input::placeholder{
     font-size: 15px;
@@ -419,6 +436,7 @@ header{
 .sct-7-submit-area button{
     margin-left: 20px;
     padding:10px 40px ;
+    margin-left: 60px;
 }
 .sct-7-main p{
     color: rgba(0, 0, 0, .4);
@@ -637,6 +655,7 @@ header{
     padding-top: 50px;
     flex-wrap: wrap;
     justify-content: space-around;
+    position: relative;
 }
 .sct-10-imgs{
     width:31% ;
@@ -649,10 +668,7 @@ header{
     opacity: 0.5;
 }
 .sct-10-icons{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    width: 100%;
 }
 .sct-10-icons span{
     font-size:40px ;
@@ -663,13 +679,15 @@ header{
     padding: 10px;
     background-color: rgba(0, 0, 0, .4);
     border-radius: 50%;
+    top: 100px;
+    
 }
 .sct-10-icons-1 span{
-    position: relative;
+    position: absolute;
     left:50px ;
 }
 .sct-10-icons-2 span{
-    position: relative;
+    position: absolute;
     right:50px ;
 }
 .sct-10-icons span:hover{
@@ -950,7 +968,15 @@ footer::before{
 /* Contaner Responsive */
 
 @media (max-width:1115px){
-
+    header{
+        width:100% ;
+    }
+    .contaner{
+        width: 100%;
+    }
+    .hero-text-area h1{
+        font-size:50px ;
+    }
 }
 
 
