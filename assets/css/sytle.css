@@ -41,7 +41,8 @@ header{
     flex-wrap: wrap;
 }
 .navber{
-    
+    display: flex;
+    align-items: center;
 }
 .navber ul{
     display: flex;
@@ -926,4 +927,73 @@ footer::before{
     margin-bottom: 0;
     text-align: center;
     padding-bottom: 20px;
+}
+.padding-lr{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Contaner Responsive */
+
+@media (max-width:1115px){
+
+}
+
+
+/* Mobail Responsive */
+
+@media (max-width:768px){
+    header{
+        width:100% ;
+    }
+    .contaner{
+        width:100% ;
+    }
+   
+    .checkbtn{
+        display: block;
+        cursor: pointer;
+    }
+    .navber {
+        position: fixed;
+        width:50vw ;
+        height:50vh ;
+        top: 78px;
+        left: -200%;
+        transition: all .5s;
+        flex-direction: column;
+        box-shadow: 10px 10px 191px 6px rgba(0,0,0,0.56);
+-webkit-box-shadow: 10px 10px 191px 6px rgba(0,0,0,0.56);
+-moz-box-shadow: 10px 10px 191px 6px rgba(0,0,0,0.56);
+    }
+    .navber::before{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        content: "";
+        background-color: #fff;
+        z-index: -1;
+    }
+    .navber ul {
+        flex-direction: column;
+        justify-content: start;
+        gap: 35px;
+    }
+    .navber ul li a {
+        color: #222;
+    }
+    .navber-area .button {
+        margin-top: 30px;
+    }
+    #check:checked ~ .navber{
+        left: 0;
+    }
 }
