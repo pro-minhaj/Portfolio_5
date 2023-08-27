@@ -1080,9 +1080,10 @@ footer::before{
     .hero-text-area{
         width: 75%;
         padding-top: 170px;
+        margin: 0 auto;
     }
     .sct-2-work{
-        width:80% ;
+        width:100% ;
     }
     .section-5-text-area{
         width: 100%;
@@ -1101,7 +1102,7 @@ footer::before{
         gap: 50px;
     }
     .card{
-        width: 60%;
+        width: 80%;
     }
     .clientimg{
         top: 0;
@@ -1126,7 +1127,7 @@ footer::before{
         width: 100%;
     }
     .sct-10-pr-1{
-        width: 50%;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
     }
@@ -1193,9 +1194,29 @@ footer::before{
         display: none;
     }
     .card{
-        width: 80%;
+        width: 100%;
     }
     .sct-10-pr-1{
-        width: 80%;
+        width: 100%;
+    }
+    .section-8{
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    .section-9-hading h2{
+        padding-bottom: 50px;
+    }
+    .section-9{
+        padding-top: 0;
+    }
+    .section-12::before{
+        top: 230px;
+    }
+    .section-11{
+        padding-bottom: 50px;
+    }
+    .section-5{
+        padding-top: 50px;
+        padding-bottom: 100px;
     }
 }
