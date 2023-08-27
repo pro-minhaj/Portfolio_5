@@ -586,7 +586,7 @@ header{
     
 }
 .clientimg1 img{
-    max-width: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -690,10 +690,12 @@ header{
 .sct-10-icons-1 span{
     position: absolute;
     left:50px ;
+    top: 170px;
 }
 .sct-10-icons-2 span{
     position: absolute;
     right:50px ;
+    top: 170px;
 }
 .sct-10-icons span:hover{
     background-color: #191919;
@@ -712,6 +714,7 @@ header{
     gap: 30px;
     flex-wrap: wrap;
     width: 100%;
+    align-items: center;
 }
 .sct-10-pricelist{
     width:31% ;
@@ -792,7 +795,7 @@ header{
     border-radius: 5px;
 }
 .sct-13-coe img{
-    max-width:100% ;
+    width:100% ;
     border-radius: 5px 5px 0 0;
 }
 .sct-13-name, .sct-13-icons{
@@ -1071,4 +1074,113 @@ footer::before{
         width: 100%;
         padding-top: 30px;
     }
+    .hero-text-area{
+        width: 75%;
+        padding-top: 170px;
+    }
+    .sct-2-work{
+        width:60% ;
+    }
+    .section-5-text-area{
+        width: 100%;
+    }
+    .section-5-img{
+        width: 100%;
+    }
+    .section-6-imgs{
+        width: 100%;
+    }
+    .section-6-text-area{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .cards{
+        gap: 50px;
+    }
+    .card{
+        width: 60%;
+    }
+    .clientimg{
+        top: 0;
+    }
+    .sct-9-img-icon{
+        left: 70px;
+        padding: 10px;
+    }
+    .sct-9-img-icon i{
+        font-size: 20px;
+    }
+    .sct-opacity{
+        display: none;
+    }
+    .sct-10-imgs{
+        width: 60%;
+    }
+    .sct-10-pricelist{
+        width: 100%;
+    }
+    .sct-10-mobail-img{
+        width: 100%;
+    }
+    .sct-10-pr-1{
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sct-13-coe{
+        width: 60%;
+    }
+    .hading-h2{
+        text-align: center;
+    }
+    .sct-14-clients{
+        width: 50%;
+    }
+    .bg-img-sections{
+        height: 70vh;
+    }
+}
+
+/* Smail Devies Responvie */
+
+@media (max-width:576px){
+    header{
+        width: 100%;
+    }
+    .contaner{
+        width: 100%;
+    }
+    .hero-text-area h4{
+       font-size:25px;
+    }
+    .hero-text-area h1{
+        font-size: 40px;
+    }
+    .section-3-logos{
+        gap: 50px;
+    }
+    .hading-h2{
+        font-size: 35px;
+    }
+    .section-6-text-area{
+        padding-top: 200px;
+    }
+    .sct-7-submit-area{
+        gap: 20px;
+    }
+    .sct-7-input{
+        width: 80%;
+    }
+    .sct-9-img-icon{
+        left: 50px;
+    }
+    .sct-10-icons-1 span{
+        left: 30px;
+        top: 120px;
+    }
+    .sct-10-icons-2 span{
+        right: 30px;
+        top: 120px;
+    }
+    
 }
