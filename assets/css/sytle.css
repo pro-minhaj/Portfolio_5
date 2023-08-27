@@ -689,12 +689,12 @@ header{
 }
 .sct-10-icons-1 span{
     position: absolute;
-    left:50px ;
+    left:0 ;
     top: 170px;
 }
 .sct-10-icons-2 span{
     position: absolute;
-    right:50px ;
+    right:0 ;
     top: 170px;
 }
 .sct-10-icons span:hover{
@@ -776,6 +776,9 @@ header{
     background-color: #fff;
     flex-wrap: wrap;
     justify-content: center;
+}
+.sct-12-imgs img{
+    max-width: 100%;
 }
 .section-13{
     padding-top: 50px ;
@@ -1079,7 +1082,7 @@ footer::before{
         padding-top: 170px;
     }
     .sct-2-work{
-        width:60% ;
+        width:80% ;
     }
     .section-5-text-area{
         width: 100%;
@@ -1114,7 +1117,7 @@ footer::before{
         display: none;
     }
     .sct-10-imgs{
-        width: 60%;
+        width: 80%;
     }
     .sct-10-pricelist{
         width: 100%;
@@ -1139,6 +1142,7 @@ footer::before{
     .bg-img-sections{
         height: 70vh;
     }
+    
 }
 
 /* Smail Devies Responvie */
@@ -1175,12 +1179,23 @@ footer::before{
         left: 50px;
     }
     .sct-10-icons-1 span{
-        left: 30px;
+        left: 0;
         top: 120px;
     }
     .sct-10-icons-2 span{
-        right: 30px;
+        right: 0;
         top: 120px;
     }
-    
+    .sct-13-coe{
+        width: 100%;
+    }
+    .sct-14-border::before{
+        display: none;
+    }
+    .card{
+        width: 80%;
+    }
+    .sct-10-pr-1{
+        width: 80%;
+    }
 }
